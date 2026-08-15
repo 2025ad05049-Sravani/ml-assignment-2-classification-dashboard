@@ -12,7 +12,7 @@ Source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnosti
 
 ## c. GitHub Repository Link
 
-PASTE_YOUR_GITHUB_REPOSITORY_LINK_HERE
+https://github.com/2025ad05049-Sravani/ml-assignment-2-classification-dashboard
 
 ## d. Models used
 
@@ -37,7 +37,7 @@ PASTE_YOUR_GITHUB_REPOSITORY_LINK_HERE
 
 ## Streamlit App
 
-Live Streamlit App: `PASTE_YOUR_STREAMLIT_APP_LINK_HERE`
+Live Streamlit App: https://ml-breast-cancer-classifier.streamlit.app/
 
 ## Repository structure
 
