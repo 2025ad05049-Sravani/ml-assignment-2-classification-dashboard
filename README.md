@@ -42,21 +42,26 @@ Live Streamlit App: https://ml-breast-cancer-classifier.streamlit.app/
 ## Repository structure
 
 ```text
-project-folder/
+ml-assignment-2-classification-dashboard/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── test_data.csv
+├── .gitignore
+├── breast_cancer_wisconsin.csv
 └── model/
-    ├── logistic_regression.py
+    ├── README.md
+    ├── decision_tree.joblib
     ├── decision_tree.py
+    ├── knn.joblib
     ├── knn.py
+    ├── logistic_regression.joblib
+    ├── logistic_regression.py
+    ├── metadata.json
+    ├── naive_bayes.joblib
     ├── naive_bayes.py
     ├── random_forest.py
-    ├── train_models.py
-    ├── *.joblib
-    ├── metadata.json
-    └── README.md
+    ├── random_forest_ensemble.joblib
+    └── train_models.py
 ```
 
 The `.py` files are the inspectable model source implementations. The `.joblib` files are serialized trained estimators used by the Streamlit app.
