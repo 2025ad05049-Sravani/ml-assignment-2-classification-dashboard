@@ -6,7 +6,7 @@ Implement and compare the required classification models on one common public cl
 
 ## b. Dataset description
 
-The Breast Cancer Wisconsin (Diagnostic) dataset from the UCI Machine Learning Repository (Dataset ID 17) contains 569 instances and 30 real-valued features, satisfying the assignment minimums. The target is binary: malignant and benign. An 80/20 stratified train/test split with random_state=42 is used. Malignant is treated as the positive class for AUC, Precision, Recall and F1.
+The Breast Cancer Wisconsin (Diagnostic) dataset from the UCI Machine Learning Repository (Dataset ID 17) contains 569 instances and 30 real-valued features. The target variable is binary, with malignant and benign classes. An 80/20 stratified train/test split with random_state=42 is used. Malignant is treated as the positive class for AUC, Precision, Recall and F1.
 
 Source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
 
@@ -33,7 +33,7 @@ https://github.com/2025ad05049-Sravani/ml-assignment-2-classification-dashboard
 | kNN | Distance-based model that benefits from scaling; performance depends on neighbourhood size. |
 | Naive Bayes | Fast and simple, but Gaussian/conditional-independence assumptions can be restrictive for correlated features. |
 | Random Forest (Ensemble) | Combines many trees to reduce variance and model non-linear relationships effectively. |
-| **Overall Winner for your dataset?** | **Logistic Regression**, based on the highest F1 score on the held-out test set. |
+| **Overall Best Model** | **Logistic Regression**, based on the highest F1 score on the held-out test set. |
 
 ## Streamlit App
 
