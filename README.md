@@ -64,7 +64,7 @@ ml-assignment-2-classification-dashboard/
     └── train_models.py
 ```
 
-The `.py` files are the inspectable model source implementations. The `.joblib` files are serialized trained estimators used by the Streamlit app.
+The .py files contain the model implementations and training code. The .joblib files contain the serialized trained models used by the Streamlit application. The metadata.json file stores model-related metadata required by the application.
 
 ## Running locally
 
